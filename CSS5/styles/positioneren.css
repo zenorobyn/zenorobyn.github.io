@@ -1,0 +1,36 @@
+p{
+    font-size: 1.25em;
+    margin-left: 10px;
+}
+
+h2{
+    margin-left: 10px;
+}
+
+article{
+    border: 1px solid black;
+    margin: 0px 10px 10px 10px;
+}
+
+body main article.left {
+    float: left;
+    break: clear;
+}
+
+body main article.right{
+    float: right;
+    break: clear;
+}
+
+
+body main article.left p img{
+    float: left;
+    break: clear;
+    margin: 0px 10px 10px 10px;
+}
+
+body main article.right p img{
+    float: right;
+    break: clear;
+    margin: 0px 10px 10px 10px;
+}
