@@ -1,0 +1,11 @@
+.row>div:nth-child(odd) {
+    background: deepskyblue;
+}
+
+.row>div:nth-child(even) {
+    background: deeppink;
+}
+
+p{
+    text-align: center;
+}
