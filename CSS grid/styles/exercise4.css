@@ -1,0 +1,105 @@
+@media only screen and (max-width: 700px) {
+    .container {
+        background-color: cornflowerblue;
+        display: grid;
+        grid-template-columns: 3fr 3fr 3fr;
+        grid-template-rows: 3fr 3fr 3fr;
+    }
+
+    .block{
+        background-color: white;
+        border: solid black 2px;
+    }
+
+    .block.block1 {
+        grid-column: 1 / 1;
+        grid-row: 1 / 1;
+    }
+
+    .block.block2 {
+        grid-column: 3 / 3;
+        grid-row: 1 / 1;
+    }
+
+    .block.block3 {
+        grid-column: 2 / 2;
+        grid-row: 2 / 2;
+    }
+
+    .block.block4 {
+        grid-column: 1 / 1;
+        grid-row: 3 / 3;
+    }
+
+    .block.block5 {
+        grid-column: 3 / 3;
+        grid-row: 3 / 3;
+    }
+
+    .block.block6, .block.block7, .block.block8, .block.block9 {
+        visibility: hidden;
+        display: none;
+    }
+}
+@media only screen and (min-width: 701px) {
+    .container {
+        background-color: cornflowerblue;
+        display: grid;
+        grid-template-columns: 3fr 3fr 3fr;
+        grid-template-rows: 3fr 3fr 3fr 3fr 3fr;
+    }
+
+    .container .block {
+        margin: 20px;
+        padding: 20px;
+        background-color: white;
+        text-align: center;
+        border: 5px solid white;
+    }
+
+    .block.block1 {
+        grid-column-start: 5;
+
+    }
+
+    .block.block2 {
+        grid-column-start: 4;
+        grid-row-start: 2;
+    }
+
+    .block.block3 {
+        grid-column-start: 1;
+        grid-row-start: 1;
+    }
+
+    .block.block4 {
+        grid-column-start: 2;
+        grid-row-start: 2;
+    }
+
+    .block.block5 {
+        grid-column-start: 3;
+        grid-row-start: 3;
+    }
+
+    .block.block6 {
+        grid-column-start: 4;
+        grid-row-start: 4;
+    }
+
+    .block.block7 {
+        grid-column-start: 2;
+        grid-row-start: 4;
+    }
+
+    .block.block8 {
+        grid-column-start: 1;
+        grid-row-start: 5;
+    }
+
+    .block.block9 {
+        grid-column-start: 5;
+        grid-row-start: 5;
+    }
+}
+
