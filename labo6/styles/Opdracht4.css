@@ -1,0 +1,28 @@
+body{
+    font-family: Verdana;
+    font-size: 1.1em;
+    background-color: silver;
+    color: darkblue;
+}
+
+body > h1{
+    font-variant: small-caps;
+    background-color: #ff0000;
+}
+
+a:hover{
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.stippelrand {
+    border: 1px dotted red;
+}
+
+.checklist > li{
+    list-style-image: url("../images/unchecked.png");
+}
+
+.checklist > .checked{
+    list-style-image: url("../images/checked.png");
+}

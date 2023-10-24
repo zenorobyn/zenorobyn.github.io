@@ -1,0 +1,42 @@
+body{
+    background-color: yellow;
+}
+
+/* element selector */
+h1 {
+    font-size: 5em;
+    background-color: red;
+}
+
+/*pseude-element selector */
+p:first-letter{
+    font-size: 5em;
+    color:red;
+}
+
+/*Pseude-class selector
+p:first-line {
+    text-decoration: underline;
+}
+*/
+
+/*Pseudo-class selector */
+a:link {
+    text-decoration: none;
+}
+li > a:hover{
+    text-decoration: underline;
+}
+/*Oneven opsomming doen*/
+li:nth-child(2n+1){
+    background-color: red;
+}
+
+/*even opsomming doen*/
+li:nth-child(2n){
+    background-color: blue;
+}
+
+
+
+
