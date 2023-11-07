@@ -1,0 +1,14 @@
+header.hoofd h1 { /*0012*/
+    color:yellow;
+}
+
+h1 /*0001 */{
+    color:red;
+}
+h1 /*0001 */{
+    color:blue;
+}
+/* header h1{
+    color:beige; */
+
+/* 0002 */

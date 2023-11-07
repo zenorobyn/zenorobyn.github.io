@@ -1,0 +1,46 @@
+body{
+    background: url("../Images/background.png");
+    color: white;
+}
+
+nav.menu{
+    height: 2em;
+}
+
+.introduction > .picture{
+    margin-left: 25px;
+}
+
+.menu > a {
+    display: inline;
+    float: left;
+}
+
+.menu {
+    display: inline-block;
+}
+
+.menu > a{
+    display: block;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+}
+
+.picture{
+    height: 125px;
+    width: 125px;
+}
+
+.link{
+    text-decoration: none;
+    color:white;
+}
+
+th, td {
+    border: 1px solid white;
+}
+
+
+
