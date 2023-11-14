@@ -1,0 +1,66 @@
+p{
+    font-size: 1.2em;
+    font-family: Helvetica;
+}
+
+h1, h2{
+    color: rgb(9,82,79);
+}
+
+h1{
+    font-size: 150%;
+}
+
+h2{
+    font-size: 130%;
+}
+
+header{
+    text-align: center;
+}
+
+.info{
+    float: left;
+    width: 70%;
+    border: none;
+    padding-right: 8px;
+    margin-right: 8px;
+}
+
+.specials{
+    margin-right: 10px;
+    width: auto;
+}
+
+article.specials h1{
+    color: black;
+}
+article.specials h2{
+    color: red;
+}
+
+article.specials p#rechts{
+    padding-left: 70%;
+    clear: both;
+}
+
+article.specials{
+    text-align: center;
+}
+
+article.specials a:hover{
+    color: saddlebrown;
+}
+
+p#guarantee{
+    margin: 30px;
+    padding: 20px;
+    color: rgb(44,44,44);
+    background-color: #a7cece;
+    border: 1px dotted white;
+}
+
+footer{
+    font-size: 50%;
+    text-align: center;
+}
