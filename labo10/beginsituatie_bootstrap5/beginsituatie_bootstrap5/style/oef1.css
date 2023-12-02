@@ -1,0 +1,17 @@
+.container-fluid .row .col-md-4{
+    background-color: blue;
+    height: 100px;
+}
+.container-fluid {
+    margin: 0;
+    padding: 0;
+}
+.container-fluid .row .col-md-2{
+    background-color: pink;
+    height: 100px;
+}
+.container-fluid .row .col-md-8{
+    background-color: lime;
+    height: 100px;
+}
+
