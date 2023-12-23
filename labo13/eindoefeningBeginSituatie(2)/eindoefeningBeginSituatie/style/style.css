@@ -1,0 +1,72 @@
+@media only screen and (min-width: 786px) {
+    div.grid{
+        height: 800px;
+        grid-template-columns: 5% 10% 70% 10% 5%;
+        grid-template-rows: auto;
+        grid-template-areas:
+                "header header header header header"
+            ". navigation main aside ."
+            "footer footer footer footer footer";
+    }
+    header.gridHeader{
+        grid-column: 5 / 5;
+    }
+    nav.gridNav{
+        grid-column: 2 / 3;
+    }
+    main.gridMain{
+        grid-column: 3 / 4;
+    }
+    aside.gridAside{
+        grid-column: 4 / 5;
+    }
+    footer.gridFooter{
+        grid-column: 5 / 5;
+    }
+}
+
+@media only screen and (max-width: 786px) {
+    div.grid {
+        grid-template-columns: 100%;
+        grid-template-rows: 25% 25% auto 25% 25%;
+        grid-template-areas:
+            "header"
+            "navigation"
+            "main"
+            "aside"
+            "footer";
+    }
+
+    .caption {
+        font-family: helvetica;
+        font-size: 16px;
+        margin-top: 12px;
+    }
+}
+
+
+div.grid{
+    display: grid;
+    text-align: center;
+}
+
+header.gridHeader{
+    grid-area: header;
+    background-color: mediumpurple;
+}
+nav.gridNav{
+    grid-area: navigation;
+    background-color: purple;
+}
+main.gridMain{
+    grid-area: main;
+    background-color: yellow;
+}
+aside.gridAside{
+    grid-area: aside;
+    background-color: lightgreen;
+}
+footer.gridFooter{
+    grid-area: footer;
+    background-color: hotpink;
+}
